@@ -38,3 +38,7 @@ menu a:hover {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.social-media img {
+  cursor: pointer;
+}

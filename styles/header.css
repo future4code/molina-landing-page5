@@ -18,7 +18,6 @@ ul {
 .redes-sociais ul li {
   margin-left: 25px;
   display: inline-block;
-  float: left;
   list-style: none;
 } /*Logo das redes sociais, ajusta o tamanho e retira a pontuação das tabelas*/
 
