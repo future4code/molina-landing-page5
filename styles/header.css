@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+} /* Alinha o body atéo inicio da página */
+
+ul {
+  padding: 5px; 
+} /* Deixxa espaço entre as tabelas */
+
+.menu-principal {
+  width: 100%;
+  background-color: #992727;
+  height: 65px;
+  margin: auto;
+} /* Abrange a logo da empresa e logo dos meios de comunicação da empresa*/
+
+.redes-sociais ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+} /*Logo das redes sociais, ajusta o tamanho e retira a pontuação das tabelas*/
+
+.redes-sociais {
+  width: 25%;
+  float: right;
+} /* Ajusta as logos das redes sociais à direita*/
+
+.header-2 {
+  width: 980px;
+  margin: 0 auto;
+} /*Segundo header com as especificações da empresa.*/
+
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+  height: 30px;
+} /* Alinha o menu com as informações da empresa e define o tamanho do mesmo*/
+  
+.menu ul li a:hover {
+  color: #c6002b;
+} /* Quando o mouse passa por cima do menu, a região fica com a cor exscolhida*/
+
+.menu ul li a {
+  color: #380303;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+} /* Define os padrões do menu, tamanho, cor e etc.*/
+
+.menu {
+  width: 100%;
+  float: auto;
+}
+
+
+.logofor{
+  width: 70px;
+  right: 70px;
+  margin: 10px;
+} /* Logo da empresa, sua posição foi proposital*/

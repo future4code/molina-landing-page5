@@ -7,15 +7,21 @@
   justify-content: center;
 }
 
-.first video {
+.midia {
+  display: flex;
+  justify-content: flex-end;
   position: absolute;
+  z-index: -1000;
   height: 80vh;
   width: 99vw;
-  z-index: -1000;
 }
 
-.first div {
-  margin: 10%;
+.midia video {
+  height: 100%;
+}
+
+.slogan {
+  margin-left: 10%;
 }
 
 .first h1 {
@@ -24,5 +30,17 @@
   text-justify: inter-word;
 }
 .first p {
-  
+  margin-top: 2rem;
+  color: var(--cinza);
+}
+
+.first button {
+  margin-top: 2rem;
+  height: 50px;
+  width: 35%;
+  font-size: 1.3rem;
+  color: white;
+  border: none;
+  border-radius: 2%;
+  background-color: var(--red);
 }
