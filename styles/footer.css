@@ -1,0 +1,40 @@
+footer {
+  border-top: solid 1px var(--red-light);
+  height: 300px;
+
+  display: grid;
+  grid-template-columns: 19vw 60vw 19vw;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  height: 100%;
+}
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+menu a {
+  font-size: 2rem;
+  color: var(--cinza);
+  text-decoration: none;
+}
+
+menu a:hover {
+  text-decoration: none;
+  color: #c6002b;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

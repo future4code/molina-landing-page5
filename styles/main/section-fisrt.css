@@ -43,4 +43,10 @@
   border: none;
   border-radius: 2%;
   background-color: var(--red);
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.first button:hover {
+  opacity: 0.8;
 }
