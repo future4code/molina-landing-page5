@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/img/page.png" alt="Molina Landing Page5" />
+  <img src="https://raw.githubusercontent.com/future4code/molina-landing-page5/dev/img/page.png" alt="Log4 - Landing Paging" />
 
   &#xa0;
 
