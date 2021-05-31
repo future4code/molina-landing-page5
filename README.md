@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Molina Landing Page5" />
+  <img src="./.github/img/page.png" alt="Molina Landing Page5" />
 
   &#xa0;
 
