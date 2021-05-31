@@ -72,7 +72,7 @@ $ git clone https://github.com/future4code/molina-landing-page5.git
 # Entre na pasta
 $ cd molina-landing-page5
 
-# Instale as dependências
+# Abra o VS Code
 $ code .
 
 # Para iniciar o projeto
