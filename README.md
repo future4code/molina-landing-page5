@@ -39,7 +39,7 @@
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/lucasgomesoficial" target="_blank">Autor</a>
+  <a href="#speech_balloon-autores">Autores</a>
 </p>
 
 <br>
@@ -61,13 +61,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## :white_check_mark: Pré requisitos ##
 
-Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o plugin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) instaldo no [VS Code](https://code.visualstudio.com/) em sua maquina.
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o plugin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) instalado no [VS Code](https://code.visualstudio.com/) em sua máquina.
 
 ## :checkered_flag: Começando ##
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/lucasgomesoficial/molina-landing-page5
+$ git clone https://github.com/future4code/molina-landing-page5.git
 
 # Entre na pasta
 $ cd molina-landing-page5
@@ -81,12 +81,13 @@ clique com o botão direito em index.html e clique em "Open with Live Server"
 # O app vai inicializar em seu navegador
 ```
 
-## :memo: Licença ##
+## :memo: Licença e Autores##
 
 Este projeto está sob licença MIT.
 
+## :speech_balloon: Autores##
 
-Feito :ok_hand: por <a href="https://github.com/lucasgomesoficial" target="_blank">Lucas Gomes</a> e <a href="https://github.com/Josimar-Mart" target="_blank">Josimar Martins</a>
+:ok_hand: Feito por <a href="https://github.com/lucasgomesoficial" target="_blank">Lucas Gomes</a> e <a href="https://github.com/Josimar-Mart" target="_blank">Josimar Martins</a>
 
 &#xa0;
 
