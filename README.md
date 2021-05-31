@@ -6,7 +6,7 @@
   <!-- <a href="https://molinalandingpage5.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center" id="top">Log4 - Landing Paging</h1>
+<h1 align="center" id="top">Log4 - Landing Page</h1>
 
 <!--<p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/lucasgomesoficial/molina-landing-page5?color=56BEB8">
@@ -46,7 +46,7 @@
 
 ## :dart: Sobre ##
 
-Projeto criado em HTML/CSS com intuito de criar uma landing paging de uma empresa de entrega ficticía "LOG4".
+Projeto criado em HTML/CSS com intuito de criar uma landing page de uma empresa de entrega ficticía "LOG4".
 
 ## :sparkles: Surge ##
 
@@ -81,11 +81,11 @@ clique com o botão direito em index.html e clique em "Open with Live Server"
 # O app vai inicializar em seu navegador
 ```
 
-## :memo: Licença e Autores##
+## :memo: Licença ##
 
 Este projeto está sob licença MIT.
 
-## :speech_balloon: Autores##
+## :speech_balloon: Autores ##
 
 :ok_hand: Feito por <a href="https://github.com/lucasgomesoficial" target="_blank">Lucas Gomes</a> e <a href="https://github.com/Josimar-Mart" target="_blank">Josimar Martins</a>
 
