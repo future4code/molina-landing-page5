@@ -1,4 +1,4 @@
-<div align="center" id="top"> 
+<div align="center"> 
   <img src="https://raw.githubusercontent.com/future4code/molina-landing-page5/dev/img/page.png" alt="Log4 - Landing Paging" />
 
   &#xa0;
@@ -6,7 +6,7 @@
   <!-- <a href="https://molinalandingpage5.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Log4 - Landing Paging</h1>
+<h1 align="center" id="top">Log4 - Landing Paging</h1>
 
 <!--<p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/lucasgomesoficial/molina-landing-page5?color=56BEB8">
@@ -50,9 +50,7 @@ Projeto criado em HTML/CSS com intuito de criar uma landing paging de uma empres
 
 ## :sparkles: Surge ##
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+<a href="http://possessive-dad.surge.sh/" target="_blank">www.log4.com.br</a>
 
 ## :rocket: Tecnologias ##
 
@@ -88,8 +86,7 @@ clique com o botão direito em index.html e clique em "Open with Live Server"
 Este projeto está sob licença MIT.
 
 
-Feito com :ok_hand: por <a href="https://github.com/lucasgomesoficial" target="_blank">Lucas Gomes</a>
-Feito com :ok_hand: por <a href="https://github.com/Josimar-Mart" target="_blank">Josimar Martins</a>
+Feito :ok_hand: por <a href="https://github.com/lucasgomesoficial" target="_blank">Lucas Gomes</a> e <a href="https://github.com/Josimar-Mart" target="_blank">Josimar Martins</a>
 
 &#xa0;
 
