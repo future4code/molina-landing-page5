@@ -12,8 +12,6 @@
   --background: #f4f6f9;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+html {
+  scroll-behavior: smooth;
 }

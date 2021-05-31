@@ -1,62 +1,80 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-} /* Alinha o body atéo inicio da página */
+#menu-principal {
+  background-color: var(--red);
+  height: 8vh;
 
-ul {
-  padding: 5px; 
-} /* Deixxa espaço entre as tabelas */
-
-.menu-principal {
-  width: 100%;
-  background-color: #992727;
-  height: 65px;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 20vw 50vw 29vw;
 } /* Abrange a logo da empresa e logo dos meios de comunicação da empresa*/
 
-.redes-sociais ul li {
-  margin-left: 25px;
-  display: inline-block;
-  list-style: none;
-} /*Logo das redes sociais, ajusta o tamanho e retira a pontuação das tabelas*/
+.logofor {
+  height: 8vh;
 
-.redes-sociais {
-  width: 25%;
-  float: right;
-} /* Ajusta as logos das redes sociais à direita*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} /* Logo da empresa, sua posição foi proposital*/
 
-.header-2 {
-  width: 980px;
-  margin: 0 auto;
-} /*Segundo header com as especificações da empresa.*/
+.logofor img {
+  height: 70%;
+} /* Logo da empresa, sua posição foi proposital*/
 
+.menu-top {
+  height: 8vh;
 
-.menu ul li {
-  display: inline-block;
-  margin-left: 15px;
-  height: 30px;
-} /* Alinha o menu com as informações da empresa e define o tamanho do mesmo*/
-  
-.menu ul li a:hover {
-  color: #c6002b;
-} /* Quando o mouse passa por cima do menu, a região fica com a cor exscolhida*/
-
-.menu ul li a {
-  color: #380303;
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-} /* Define os padrões do menu, tamanho, cor e etc.*/
-
-.menu {
-  width: 100%;
-  float: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
+.menu-top a {
+  height: 8vh;
+  margin-left: 5%;
 
-.logofor{
-  width: 70px;
-  right: 70px;
-  margin: 10px;
-} /* Logo da empresa, sua posição foi proposital*/
+  display: flex;
+  align-items: center;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+
+  text-decoration: none;
+}
+
+.menu-top a:hover {
+  border-top: solid 2px white;
+  color: white;
+}
+
+.redes-sociais {
+  height: 8vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+} /*Logo das redes sociais, ajusta o tamanho e retira a pontuação das tabelas*/
+
+.redes-sociais a {
+  margin-left: 5%;
+
+  display: flex;
+  align-items: center;
+} /* Ajusta as logos das redes sociais à direita*/
+
+@media screen and (max-width: 700px) {
+  #menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .menu-top a {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+
+  .redes-sociais {
+    display: none;
+  }
+}

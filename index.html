@@ -8,69 +8,45 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/main/section-fisrt.css">
-  <link rel="stylesheet" href="styles/main/section-second.css">
-  <link rel="stylesheet" href="styles/main/section-third.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/index/section-fisrt.css">
+  <link rel="stylesheet" href="styles/index/section-second.css">
+  <link rel="stylesheet" href="styles/index/section-third.css">
   <link rel="stylesheet" href="styles/footer.css">
   <title>Log4 | Entregas com Tecnologia e Inovação</title>
   
 </head>
 <body>
-  <header class="menu-principal">  
-    <div>
-      <id>
-        <img src="img/Log4.png" class="logofor">
-      </id>
-      <div class="redes-sociais">
-        <ul>
-          <li>
-            <a href="">
-              <img src="img/rss.png" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/face.png" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/tw.png" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/linkedin.png" />
-            </a>
-          </li>
-        </ul>
-      </div>
+  <header id="menu-principal">
+    <div class="logofor">
+      <img src="img/log4-logo.png">
     </div>
+    <menu class="menu-top">
+      <a href="index.html">Home</a>
+      <a href="#second">Status Online</a>
+      <a href="#third">Entregas Ágeis</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="fale-conosco.html">Fale Conosco</a>
+    </menu>
+    <div class="redes-sociais">
+      <a href="">
+        <img src="img/rss.png" />
+      </a>
+      <a href="">
+        <img src="img/face.png" />
+      </a>
+      <a href="">
+        <img src="img/tw.png" />
+      </a>
+      <a href="">
+        <img src="img/linkedin.png" />
+      </a>
+    </div>    
   </header>
-  <div class="header-2">
-    <div class="menu">
-      <ul>
-        <li>
-          <a href="">Para você</a>
-        </li>
-        <li>
-          <a href="">Para entregar</a>
-        </li>
-        <li>
-          <a href="">Vendas e suporte</a>
-        </li>
-        <li>
-          <a href="">Para empresas</a>
-        </li>
-        <li>
-          <a href="">Acompanhe seu pedido</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+ 
 
   <main>
-    <section class="first">
+    <section id="first">
       <div class="slogan">
         <h1>Conectando o Brasil com a logística do Futuro</h1>
         <p>A tecnologia da Log4 está inovando o mercado de entregas via motoboy, automóveis e avião.</p>
@@ -82,19 +58,24 @@
         </video>
       </div>
     </section>
-    <section class="second">
+    <section id="second">
       <div class="video">
         <video autoplay muted loop>
           <source src="https://kubanacan.loggi.com/videos/tracking.mp4" type="video/mp4">
         </video>
       </div>
       <div class="bloco2-section-second">
-        <h2>Com a Log4, seu cliente sabe exatamente</h2>
-        <h2>quando o pedido vai chegar</h2>
-        <p>Enviamos um email ou SMS para o seu cliente acompanhar online o status do pedido.</p>
+        <div class="only-mobile">
+          <h2>
+            Com a Log4, seu cliente sabe exatamente quando o pedido vai chegar.          
+          </h2>
+          <p>
+            Enviamos um email ou SMS para o seu cliente acompanhar online o status do pedido.
+          </p>
+        </div>
       </div>
     </section>
-    <section class="third">
+    <section id="third">
       <div class="topo-section-third">
         <h2>Entregas expressas para o seu negócio e para você</h2>
         <p>A Log4 localiza o entregador mais próximo e disponível para atender escritórios, e-commerces, lojas e você.</p>
@@ -118,20 +99,19 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="footer-index">
     <div class="logo">
-      <img src="img/Log4.png" alt="logo">
+      <img src="img/logo-footer.png" alt="logo">
     </div>
-    <menu>
+    <menu class="menu-footer">
       <a href="index.html">Home</a>
-      <a href="">Quem Somos</a>
-      <a href="">Contate-nos</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="fale-conosco.html">Fale Conosco</a>
     </menu>
-    <div class="social-media">
+    <div id="social-media">
       <a href="https://twitter.com/" target="_blank"><img src="img/tw.png" alt="twitter"></a>
       <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
       <a href="https://www.facebook.com/" target="_blank"><img src="img/face.png" alt="facebook"></a>
-      <img src="img/rss.png" alt="rss">
     </div>
   </footer>
 </body>
