@@ -1,0 +1,80 @@
+#menu-principal {
+  background-color: var(--red);
+  height: 8vh;
+
+  display: grid;
+  grid-template-columns: 20vw 50vw 29vw;
+} /* Abrange a logo da empresa e logo dos meios de comunicação da empresa*/
+
+.logofor {
+  height: 8vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} /* Logo da empresa, sua posição foi proposital*/
+
+.logofor img {
+  height: 70%;
+} /* Logo da empresa, sua posição foi proposital*/
+
+.menu-top {
+  height: 8vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu-top a {
+  height: 8vh;
+  margin-left: 5%;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+
+  text-decoration: none;
+}
+
+.menu-top a:hover {
+  border-top: solid 2px white;
+  color: white;
+}
+
+.redes-sociais {
+  height: 8vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+} /*Logo das redes sociais, ajusta o tamanho e retira a pontuação das tabelas*/
+
+.redes-sociais a {
+  margin-left: 5%;
+
+  display: flex;
+  align-items: center;
+} /* Ajusta as logos das redes sociais à direita*/
+
+@media screen and (max-width: 700px) {
+  #menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .menu-top a {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+
+  .redes-sociais {
+    display: none;
+  }
+}
